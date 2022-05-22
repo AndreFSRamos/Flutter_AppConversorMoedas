@@ -1,16 +1,31 @@
-# conversor_moeda
+# Conversor de moedas
 
-A new Flutter project.
+## Descrição.
 
-## Getting Started
+<p>O aplicativo tem como objetos a conversão das moedas Dolar, Real, Euro e BitCoin, a conversão e feita de fora simultânea para todas as moedas, tendo como referência os valores recebidos através da API da HG Brasil.</p>
 
-This project is a starting point for a Flutter application.
+## Tecnologias.
+#### Linguagem : dart.
+#### Framework : Flutter.
+#### API : HG Brasil.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Requisitos funcionais.
+#### RF001 - Converter Real para Dolar, Euro e BitCoin.
+#### RF002 - Converter Dolar para Real, Euro e BitCoin.
+#### RF003 - Converter Euro para Dolar, Real e BitCoin.
+#### RF004 - Converter BitCoin para Real, Dolar e Euro.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Requisitos NÃO funcionais.
+#### RNF001 - Consumir uma API que retorne os valores de venda atuais de cada moeda.
+#### RNF002 - Quando um informado um valor em um dos campos, os demais devem fazer ser preencidos simutâneamente, já feita a conversão.
+#### RNF003 - Se as informação de um campo for apagado, todo os demais também devem ser apagados.
+
+## Ilustração
+
+![Gif de apresentação do projéto](https://github.com/AndreFSRamos/GifCards/blob/main/app_conversor_moedas.gif)
+
+## Autor
+
+https://www.linkedin.com/in/andre-felipe-763a4a139/
